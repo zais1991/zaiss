@@ -1,6 +1,6 @@
 {
     "name": "zais/zais7",
-    "description": "A short description of what your package does",
+    "description": "A short description of what your package does.",
     "type": "library",
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
