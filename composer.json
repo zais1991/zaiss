@@ -1,0 +1,30 @@
+{
+    "name": "zais/zais7",
+    "type": "library",
+    "homepage": "http://framework.zend.com/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.2.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "zendframework1/library/"
+        }
+    },
+    "include-path": [
+        "zendframework1/library/"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.12.x-dev"
+        }
+    },
+    "require-dev": {
+    },
+    "archive": {
+        "exclude": ["/demos", "/documentation", "/tests"]
+    }
+}
